@@ -4,15 +4,14 @@ using UnityEngine.UI;
 public class Rocket : MonoBehaviour
 {
     private Rigidbody2D _rb2d;
+    private RocketEnergySystem _energySystem;
     //private float fuel = 100f;
     //private float maxFuel;
-    
+
     private readonly float SPEED = 5f;
     private readonly float FUELPERSHOOT = 10f;
 
     //public Image fuelBar;
-
-    RocketEnergySystem _energySystem;
     
     void Awake()
     {

@@ -16,9 +16,9 @@ public class RocketEnergySystem : MonoBehaviour
     public void RestoreFuel()
     {
         fuel += 0.1f;
-        if (fuel >= 100f)
+        if (fuel >= maxFuel)
         {
-            fuel = 100f;
+            fuel = maxFuel;
         }
     }
 }

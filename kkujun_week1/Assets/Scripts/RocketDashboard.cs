@@ -15,7 +15,7 @@ public class RocketDashboard : MonoBehaviour
 
     private void Awake()
     {
-        //PlayerPrefs.DeleteAll();
+        //PlayerPrefs.DeleteAll(); //최고기록 삭제
         highScore = PlayerPrefs.GetInt(KeyName, 0);
     }
 
