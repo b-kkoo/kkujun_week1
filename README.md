@@ -1,0 +1,2 @@
+# kkujun_week1
+ 
